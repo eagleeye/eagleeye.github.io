@@ -1,7 +1,7 @@
 ---
 layout: post
-title: TernopilJS Meetup #1 - React Zoo
-categories: takks
+title: React Zoo - TernopilJS Meetup #1 
+categories: talks
 ---
 
 <iframe width="600" height="400" src="https://www.youtube.com/embed/mNIQAiCb67s" frameborder="0" allowfullscreen></iframe> 
