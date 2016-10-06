@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Migrate data in MongoDB from Node.js
+title: Migrate data in MongoDB with Node.js
 categories: talks
 ---
 
