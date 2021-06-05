@@ -1,6 +1,6 @@
 ---
 layout: post
-title: No excuses for not writing tests - JS Fwdays online 2020
+title: 13 ways to run web applications on the Internet - JS Fwdays 2021
 categories: talks
 ---
 
