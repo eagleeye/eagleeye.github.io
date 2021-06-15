@@ -3,6 +3,8 @@ layout: post
 title: No excuses for not writing tests - JS Fwdays online 2020
 categories: talks
 ---
+{% youtube h07k067qWUk %}
+@[JavaScript fwdays'20 online conference](https://fwdays.com/en/event/javascript-fwdays-online-conference/review/no-excuses-for-not-writing-tests)
 
 {% google_slides d/e/2PACX-1vRW_JOM3rTXIPYkZE8zDvKcbp5ibhG0ZsVI2x53NlRm7TIGO2MPL0STuyQxDR3OoWTgkKqD70-bltwT%}
 @[OdessaJS 2020](https://odessajs.org/)
