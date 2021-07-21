@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Autotesting frontend with js: From zero to hero
+title: Autotesting frontend with js - From zero to hero
 categories: talks
 ---
 {% youtube -EAvm52RE0NA?t=1995 %}
