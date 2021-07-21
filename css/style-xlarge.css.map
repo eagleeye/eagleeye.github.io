@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "style-xlarge.css",
+	"sources": [
+		"style-xlarge.scss",
+		"_sass/_vars.scss",
+		"_sass/_mixins.scss"
+	],
+	"sourcesContent": [
+		"@import 'vars';\n@import 'mixins';\n\n/*\n\tStrata by HTML5 UP\n\thtml5up.net | @n33co\n\tFree for personal and commercial use under the CCA 3.0 license (html5up.net/license)\n*/\n\n/* Basic */\n\n\tbody, input, select, textarea {\n\t\tfont-size: 12pt;\n\t}",
+		"// Duration.\n\t$duration-transition:\t\t0.2s;\n\n// Size.\n\t$size-border-radius:\t\t0.35em;\n\t$size-element-height:\t\t2.75em;\n\t$size-element-margin:\t\t2em;\n\n// Font.\n\t$font-family:\t\t\t\t'Source Sans Pro', Helvetica, sans-serif;\n\t$font-family-fixed:\t\t\t'Courier New', monospace;\n\t$font-weight:\t\t\t\t400;\n\t$font-weight-bold:\t\t\t400;\n\n// Color.\n\t$color-bg:\t\t\t\t\t#fff;\n\t$color-fg:\t\t\t\t\t#a2a2a2;\n\t$color-fg-bold:\t\t\t\t#787878;\n\t$color-fg-light:\t\t\t#b2b2b2;\n\t$color-border:\t\t\t\t#efefef;\n\t$color-border-bg:\t\t\t#f7f7f7;\n\t$color-border2:\t\t\t\t#dfdfdf;\n\t$color-border2-bg:\t\t\t#e7e7e7;\n\n\t$color-accent-bg:\t\t\t#49bf9d;\n\t$color-accent-fg:\t\t\tmix($color-accent-bg, #ffffff, 25%);\n\t$color-accent-fg-bold:\t\t#ffffff;\n\t$color-accent-fg-light:\t\tmix($color-accent-bg, #ffffff, 40%);\n\t$color-accent-border:\t\trgba(255,255,255,0.25);\n\t$color-accent-border-bg:\trgba(255,255,255,0.075);\n\t$color-accent-border2:\t\trgba(255,255,255,0.5);\n\t$color-accent-border2-bg:\trgba(255,255,255,0.2);\n\t\n\t$color-accent2-bg:\t\t\t#1f1815;\n\t$color-accent2-fg:\t\t\trgba(255,255,255,0.5);\n\t$color-accent2-fg-bold:\t\t#ffffff;\n\t$color-accent2-fg-light:\trgba(255,255,255,0.4);\n\t$color-accent2-border:\t\trgba(255,255,255,0.25);\n\t$color-accent2-border-bg:\trgba(255,255,255,0.075);\n\t$color-accent2-border2:\t\trgba(255,255,255,0.5);\n\t$color-accent2-border2-bg:\trgba(255,255,255,0.2);",
+		"@mixin vendor-property($property, $value) { \n    @each $vendor in ('-moz-', '-webkit-', '-o-', '-ms-', '') {\n        #{$vendor}#{$property}: #{$value};\n    }\n}\n\n@mixin vendor-value($property, $value) { \n    @each $vendor in ('-moz-', '-webkit-', '-o-', '-ms-', '') {\n        #{$property}: #{$vendor}#{$value};\n    }\n}\n\n@mixin vendor($property, $value) { \n    @each $vendor in ('-moz-', '-webkit-', '-o-', '-ms-', '') {\n        #{$vendor}#{$property}: #{$vendor}#{$value};\n    }\n}\n\n@mixin vendor-keyframes($name) {\n\t@-moz-keyframes #{$name} { @content; }\n\t@-webkit-keyframes #{$name} { @content; }\n\t@-o-keyframes #{$name} { @content; }\n\t@-ms-keyframes #{$name} { @content; }\n\t@keyframes #{$name} { @content; }\n}\n\n@mixin icon($content: false) {\n\ttext-decoration: none;\n\n\t&:before {\n\t\t@if $content {\n\t\t\tcontent: $content;\n\t\t}\n\t\t-moz-osx-font-smoothing: grayscale;\n\t\t-webkit-font-smoothing: antialiased;\n\t\tfont-family: FontAwesome;\n\t\tfont-style: normal;\n\t\tfont-weight: normal;\n\t\ttext-transform: none !important;\n\t}\n}"
+	],
+	"names": [],
+	"mappings": "AAGA,kIAIE;AAEF,WAAW;AAEV,AAAA,IAAI,EAAE,KAAK,EAAE,MAAM,EAAE,QAAQ,CAAC,EAC7B,SAAS,EAAE,IAAI,GACf"
+}
