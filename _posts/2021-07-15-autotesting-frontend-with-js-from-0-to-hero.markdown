@@ -3,6 +3,7 @@ layout: post
 title: Autotesting frontend with js: From zero to hero
 categories: talks
 ---
+{% youtube -EAvm52RE0NA?t=1995 %}
 
 {% google_slides d/e/2PACX-1vQ28CSqFUfT6-pynGrYHrHqKiTeRlTn3hYTYsk38ww-SaO-JG_oe3x3yWypgpC4EbkVEX2XKM1uJPkX%}
 @[Proxet Js meetup 2021](https://dou.ua/calendar/38722/)
