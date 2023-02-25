@@ -1,5 +1,4 @@
 source "https://rubygems.org"
 
-gem "jekyll"
-gem "jekyll-sass-converter", "~> 2.0"
-gem "html-proofer"
+gem "jekyll", "~4.3.1"
+gem "html-proofer", "~3.4.0"
