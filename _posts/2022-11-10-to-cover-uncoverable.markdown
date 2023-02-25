@@ -4,6 +4,9 @@ title: To cover uncoverable
 categories: talks
 ---
 
+{% youtube 26FOaLt2C-s %}
+{% youtube ME1_vTxVV5s %}
+
 {% google_slides d/e/2PACX-1vQe-qKPYNAW-AMI8L3FZ96KmJZpr0n0X7oGG05rZDn84VP8AWIqpXBQITSW0Hpc_ChjZxYYwfIsvY1Y%}
 {% google_slides d/e/2PACX-1vRM09k4CR9zrXcl5ZbD1Fhvf2rgFjuDCSsLqYNN3YHpYCePf56xbQvUb5RtNB6KIqq8ww7WCuejcgix%}
 
