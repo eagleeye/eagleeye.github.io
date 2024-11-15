@@ -1,0 +1,11 @@
+---
+layout: post
+title: How to TDD - for Tallium
+categories: [talks]
+---
+
+{% google_slides d/e/2PACX-1vQVLBQGoakAcyFYnBEujVsWUD0gVPXZG1JhZ0J9OEFVaw7i8jgbGAQSv18kGQEWZhSutKqPoLTTL2wh%}
+
+How to code with Test Driven Development. Step-by-step examples in JavaScript. Technologies used: Node.js, Mocha, Chai, Docker, MongoDB.
+
+Made for [Tallium](https://tallium.com/) team.
