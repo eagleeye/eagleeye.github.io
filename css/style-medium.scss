@@ -2,8 +2,8 @@
 # style-medium
 ---
 
-@import 'vars';
-@import 'mixins';
+@use 'vars' as *;
+@use 'mixins' as *;
 
 /*
 	Strata by HTML5 UP
@@ -45,10 +45,10 @@ $size-header-pad:		4em;
 		text-align: center;
 		top: auto;
 		width: 100%;
-		
+
 		h1 {
 			font-size: 1.75em;
-			
+
 			br {
 				display: inline;
 			}
@@ -87,7 +87,7 @@ $size-header-pad:		4em;
 			}
 		}
 	}
-	
+
 /* Main */
 
 	#main {

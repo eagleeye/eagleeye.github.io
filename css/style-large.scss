@@ -2,8 +2,8 @@
 # style-large
 ---
 
-@import 'vars';
-@import 'mixins';
+@use 'vars' as *;
+@use 'mixins' as *;
 
 /*
 	Strata by HTML5 UP
@@ -22,7 +22,7 @@ $size-header-pad:		3em;
 
 		h1 {
 			font-size: 1.25em;
-			
+
 			br {
 				display: none;
 			}

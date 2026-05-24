@@ -2,8 +2,8 @@
 # style-xlarge
 ---
 
-@import 'vars';
-@import 'mixins';
+@use 'vars' as *;
+@use 'mixins' as *;
 
 /*
 	Strata by HTML5 UP
